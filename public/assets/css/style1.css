@@ -1,0 +1,65 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url('/assets/img/background.png');
+  background-color: #3eb1349a;
+  color: #444444;
+}
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+#main {
+    margin-top: 60px;
+    padding: 20px 30px;
+    transition: all 0.3s;
+  }
+  
+  @media (max-width: 1199px) {
+    #main {
+      padding: 20px;
+    }
+    .headerlogo {
+      text-align: center;
+    }
+  }
+
+.headerlogo {
+  padding: 20px;
+  margin-left: -80px;
+}
+
+.title{
+  color:#ffffff;
+  padding: 10px 0px 20px 0px;
+}
+
+.title h1{
+  font-weight: bolder;
+}
+
+.title h3{
+  font-weight: 600;
+}
+
+.card-title {
+  font-weight: 800;
+}
+
+
+.input-group-text {
+  background: #ffffff;
+}
+
+.input-group-text i {
+  color: #3a3f44;
+  border-radius: 20px;
+  background: #ffffff;
+}
+.input-group-text i:hover {
+  color: #3eb134;
+}
+
+.container .card-body{
+  padding: 20px 30px;
+}
+
